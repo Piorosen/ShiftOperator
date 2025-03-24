@@ -30,12 +30,6 @@ unsigned int shift_origin(unsigned int value, char shiftIndicator) {
     }
 }
 
-#define SHIFT_DEFINE(V, S) \
-    memcpy(&((char*)mem)[1], &V, 4); \
-    ((char*)mem)[6] = SHIFT(S); \
-    ((char*)mem)[7] = ABS(S); \
-    func();
-
 unsigned int shift_memory(unsigned int value, char shiftIndicator) {
     // 0xE0 : << 
     // 0xF8 : >> 
@@ -60,7 +54,10 @@ decltype(auto) benchmark_memory(unsigned int* value, char* shiftIndicator) {
     auto s = std::chrono::high_resolution_clock::now();
     for (int j = 0; j < 10; j++) {
         for (int i = 0; i < 10000000; i++) {
-            SHIFT_DEFINE(value[i], shiftIndicator[i]);
+            memcpy(&((char*)mem)[1], &value[i], 4);
+            ((char*)mem)[6] = SHIFT(shiftIndicator[i]);
+            ((char*)mem)[7] = ABS(shiftIndicator[i]);
+            func();
         }
     }
     auto e = std::chrono::high_resolution_clock::now();
