@@ -14,8 +14,8 @@
 unsigned char code[] = {
     0xB8,                   // mov eax, imm32
     0x10, 0x00, 0x00, 0x00, // value 자리 (UInt32)
-    0xC1, 0x00, // 0xE0, 0xF8             // 기본: SHL EAX, imm8 (E0)
-    0x00,                   // shift count (예시로 4비트 시프트)
+    0xC1, 0xE0, // 0xE0, 0xF8             // 기본: SHL EAX, imm8 (E0)
+    0x01,                   // shift count (예시로 4비트 시프트)
     0xC3                    // ret
 };
 
@@ -51,14 +51,14 @@ decltype(auto) benchmark_origin(unsigned int* value, char* shiftIndicator) {
 }
 
 decltype(auto) benchmark_memory(unsigned int* value, char* shiftIndicator) {
+    ((char*)mem)[6] = (char)(0xE0);
+    // ((char*)mem)[7] = (char)20;
     auto s = std::chrono::high_resolution_clock::now();
-    for (int j = 0; j < 10; j++) {
-        for (int i = 0; i < 10000000; i++) {
-            memcpy(&((char*)mem)[1], &value[i], 4);
-            ((char*)mem)[6] = SHIFT(shiftIndicator[i]);
-            ((char*)mem)[7] = ABS(shiftIndicator[i]);
-            func();
-        }
+    for (int i = 0; i < 10000000; i++) {
+        memcpy(&((char*)mem)[1], &value[i], 4);
+        ((char*)mem)[6] = SHIFT(shiftIndicator[i]);
+        ((char*)mem)[7] = ABS(shiftIndicator[i]);
+        func();
     }
     auto e = std::chrono::high_resolution_clock::now();
     return std::chrono::duration_cast<std::chrono::milliseconds>(e - s).count();
@@ -99,8 +99,8 @@ int main(int argc, char* argv[]) {
     // JIT 컴파일된 함수를 호출
     func = reinterpret_cast<unsigned int (*)()>(mem);
 
-    auto value = random_value_int(10000000, 100, 100000);
-    auto shiftIndicator = random_value_char(10000000, -10, 10);
+    auto value = random_value_int(10000000, 10, 100);
+    auto shiftIndicator = random_value_char(10000000, -20, 20);
 
     std::cout << "shift_origin: " << benchmark_origin(value, shiftIndicator) << std::endl;
     std::cout << "shift_memory: " << benchmark_memory(value, shiftIndicator) << std::endl;
