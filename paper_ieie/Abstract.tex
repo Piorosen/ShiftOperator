@@ -1,0 +1,15 @@
+Branchless programming is common folklore for data-dependent operations such as sign-dependent
+variable shifts ($v \ll s$ if $s>0$, $v \gg |s|$ otherwise). This paper examines whether the
+folklore holds on the Cortex-M0+, an in-order microcontroller core without branch predictors,
+by comparing a branch baseline, a branchless C implementation, and a hand-written assembly
+implementation on real RP2040 hardware. The branchless C version was 1.2$\times$ slower than
+the plain branch, because the C standard forbids the compiler from exploiting the ARM barrel
+shifter's saturation semantics (shift amounts $\geq$ 32 yield zero) and the generated code spends
+14 instructions per element. A hand-written assembly loop that delegates sign selection to the
+shifter saturation needs only 8 instructions per element and runs 1.5$\times$ faster than the
+branch baseline, with measured cycles matching the analytical model within 2\%. We analyze the
+gap between compiler-generated and hand-written code, attribute it to language-rule constraints,
+destructive two-operand encoding, and register allocation, and discuss a direction in which
+large language models predict such compiler-pass limitations and synthesize new assembly
+kernels or compiler passes, as demonstrated by the LLM-driven feedback loop used throughout
+this study.

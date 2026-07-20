@@ -1,0 +1,22 @@
+\begin{thebibliography}{1}
+
+\bibitem{hennessy}
+J.~L. Hennessy and D.~A. Patterson, {\em Computer Architecture: A Quantitative Approach}.
+\newblock Morgan Kaufmann, 6th~ed., 2017.
+
+\bibitem{shiftop}
+Piorosen, ``Shiftoperator: Branch-free shift via self-modifying code.'' \url{https://github.com/Piorosen/ShiftOperator}.
+\newblock Accessed 2026-07-20.
+
+\bibitem{m0plus}
+{Arm Ltd.}, {\em Cortex-M0+ Technical Reference Manual}, 2012.
+\newblock DDI 0484C.
+
+\bibitem{rp2040}
+{Raspberry Pi Ltd.}, {\em RP2040 Datasheet}, 2024.
+
+\bibitem{armv6m}
+{Arm Ltd.}, {\em ARMv6-M Architecture Reference Manual}, 2018.
+\newblock DDI 0419E.
+
+\end{thebibliography}

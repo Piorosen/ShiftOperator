@@ -1,0 +1,47 @@
+\documentclass[preprint]{IEIE} % for review
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{listings}
+\usepackage{url}
+\lstset{
+  basicstyle=\ttfamily\footnotesize,
+  frame=single,
+  breaklines=true,
+  columns=flexible,
+  keepspaces=true,
+  aboveskip=6pt, belowskip=6pt
+}
+\title{분기 예측기가 없는 Cortex-M0+에서 branchless 최적화의\\역전과 LLM 기반 컴파일러 한계 극복 방향}
+\author{차주형 \\ 과학기술연합대학원대학교 \\ e-mail : chacha@ust.ac.kr}
+\engtitle{When Branchless Code Loses: Measuring Compiler Limits on a\\Branch-Predictor-less Cortex-M0+ and an LLM-based Way Forward}
+\engauthor{JooHyoung Cha \\ University of Science and Technology (UST)}
+\abstract{
+\input{Abstract}
+}
+
+\begin{document}
+\maketitle
+\makeabstract
+\section{서론}
+\input{01_Introduction}
+
+\section{배경: Cortex-M0+의 세 가지 특성}
+\input{02_Background}
+
+\section{세 가지 구현}
+\input{03_Design}
+
+\section{실험 결과 및 분석}
+\input{04_Experiments}
+
+\section{LLM을 이용한 컴파일러 한계 극복}
+\input{05_LLM}
+
+\section{결론}
+\input{05_Conclusion}
+
+\bibliographystyle{ieeetr}
+\bibliography{references}
+
+\end{document}

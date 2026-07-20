@@ -1,0 +1,48 @@
+세 구현 모두 값 32에 대해 50,000개의 시프트 지시자(양수 1--20, 음수 $-1$--$-20$ 반반)를
+처리하며, 누적 합의 일치로 정합성을 검증하였다.
+
+\subsection{origin: 분기 기준 구현}
+
+식~(\ref{eq:shift})를 그대로 옮긴 C 코드다. 부호를 검사하는 조건 분기 하나와 시프트
+하나로 구성되며, 이후 모든 비교의 기준이 된다.
+
+\subsection{shift\_pow2: 분기 제거 C 구현}
+
+값이 $32 = 2^5$이므로 $f(32,s) = 2^{s+5}$로 두 경우를 한 식으로 통일할 수 있다. 지수
+$e = s+5$가 음수가 되는 경우($s < -5$, 결과 0)는 분기 대신 부호 마스크로 처리한다.
+
+\begin{lstlisting}[language=C]
+uint32_t shift_pow2(int8_t s) {
+  int32_t e = (int32_t)s + 5;
+  return (1u << ((uint32_t)e & 31))
+       & ~(uint32_t)(e >> 31);
+}
+\end{lstlisting}
+
+분기가 완전히 사라진 전형적인 branchless 코드지만, 그 대가로 마스크 생성과 적용에 ALU
+연산이 추가된다.
+
+\subsection{sum\_dual\_asm: 수동 어셈블리 구현}
+
+같은 분기 제거를 산술 연산이 아니라 \textbf{배럴 시프터의 포화 특성}으로 달성한다.
+$n = (\mathrm{uint8})\,s$로 두면 2의 보수 표현에 의해 음수 $s$는 $n \in [236,255]$가
+되므로,
+\begin{equation}
+f(v,s) = (v \ll n) + (v \gg ((-n)\,\&\,\mathrm{0xFF}))
+\label{eq:dual}
+\end{equation}
+에서 부호에 따라 한쪽 항이 하드웨어에 의해 자동으로 0이 된다. 비교도 마스크도 필요 없다.
+그러나 2장에서 언급했듯 이 식은 C로 표현하면 미정의 동작이므로, 루프 전체를 어셈블리로
+작성하였다. 원소당 8명령어이며, 4배 언롤과 수동 레지스터 할당(low 레지스터 6개)을
+적용했다.
+
+\begin{lstlisting}
+ldrb r3,[p,#k]  @ n=(uint8)s
+movs r4,#32
+lsls r4,r4,r3   @ n>=32 -> 0
+negs r3,r3
+movs r5,#32
+lsrs r5,r5,r3   @ (-n)>=32 -> 0
+adds acc,acc,r4
+adds acc,acc,r5
+\end{lstlisting}

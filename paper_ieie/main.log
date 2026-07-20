@@ -1,0 +1,452 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.6)  20 JUL 2026 02:58
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/Users/chacha/Desktop/git/arduino/paper_ieie/main.tex
+(/Users/chacha/Desktop/git/arduino/paper_ieie/main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(./IEIE.cls
+
+LaTeX Warning: You have requested document class `IEIE',
+               but the document class provides `kcc'.
+
+Document Class: kcc 2010/12/01 v1 thesis class for SNU CSE
+(/Users/chacha/Library/texmf/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/Users/chacha/Library/texmf/tex/latex/base/size10.clo
+File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@section=\count276
+\c@subsection=\count277
+\c@subsubsection=\count278
+\c@paragraph=\count279
+\c@subparagraph=\count280
+\c@figure=\count281
+\c@table=\count282
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+) (/usr/local/texlive/2026basic/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/Users/chacha/Library/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (/usr/local/texlive/2026basic/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/usr/local/texlive/2026basic/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count283
+\Gm@cntv=\count284
+\c@Gm@tempcnt=\count285
+\Gm@bindingoffset=\dimen149
+\Gm@wd@mp=\dimen150
+\Gm@odd@mp=\dimen151
+\Gm@even@mp=\dimen152
+\Gm@layoutwidth=\dimen153
+\Gm@layoutheight=\dimen154
+\Gm@layouthoffset=\dimen155
+\Gm@layoutvoffset=\dimen156
+\Gm@dimlist=\toks18
+) (/usr/local/texlive/2026basic/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+) (/Users/chacha/Library/texmf/tex/latex/kotex-utf/contrib/dhucs-cmap.sty
+Package: dhucs-cmap 2021/03/01 searchable PDF for dhucs upon pdftex
+) (/Users/chacha/Library/texmf/tex/latex/cjk-ko/kotex.sty
+Package: kotex 2015/04/19 v1.6 Korean TeX (ko.TeX)
+ (/Users/chacha/Library/texmf/tex/latex/kotex-utf/kotex.cfg) (/Users/chacha/Library/texmf/tex/latex/kotex-utf/kotexutf.sty
+Package: kotexutf 2022/06/22 v3.0.0 typesetting UTF-8 Korean documents
+ (/Users/chacha/Library/texmf/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
+) (/Users/chacha/Library/texmf/tex/plain/kotex-plain/kotexutf-core.tex
+\unih@ngulpoint=\count286
+\dhucs@emph@raise=\dimen157
+)
+Now handling font encoding LUC ...
+... processing UTF-8 mapping file for font encoding LUC
+ (/Users/chacha/Library/texmf/tex/latex/kotex-utf/lucenc.dfu
+File: lucenc.dfu 2007/09/05 UTF-8 support for dhucs
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+3001 (decimal 12289)
+   defining Unicode char U+3002 (decimal 12290)
+   defining Unicode char U+3008 (decimal 12296)
+   defining Unicode char U+3009 (decimal 12297)
+   defining Unicode char U+300A (decimal 12298)
+   defining Unicode char U+300B (decimal 12299)
+   defining Unicode char U+300C (decimal 12300)
+   defining Unicode char U+300D (decimal 12301)
+   defining Unicode char U+300E (decimal 12302)
+   defining Unicode char U+300F (decimal 12303)
+   defining Unicode char U+3010 (decimal 12304)
+   defining Unicode char U+3011 (decimal 12305)
+   defining Unicode char U+3014 (decimal 12308)
+   defining Unicode char U+3015 (decimal 12309)
+   defining Unicode char U+3016 (decimal 12310)
+   defining Unicode char U+3017 (decimal 12311)
+   defining Unicode char U+3018 (decimal 12312)
+   defining Unicode char U+3019 (decimal 12313)
+   defining Unicode char U+301A (decimal 12314)
+   defining Unicode char U+301B (decimal 12315)
+   defining Unicode char U+FF01 (decimal 65281)
+   defining Unicode char U+FF08 (decimal 65288)
+   defining Unicode char U+FF09 (decimal 65289)
+   defining Unicode char U+FF0C (decimal 65292)
+   defining Unicode char U+FF0E (decimal 65294)
+   defining Unicode char U+FF1A (decimal 65306)
+   defining Unicode char U+FF1B (decimal 65307)
+   defining Unicode char U+FF1C (decimal 65308)
+   defining Unicode char U+FF1D (decimal 65309)
+   defining Unicode char U+FF1E (decimal 65310)
+   defining Unicode char U+FF1F (decimal 65311)
+   defining Unicode char U+FF3B (decimal 65339)
+   defining Unicode char U+FF3D (decimal 65341)
+   defining Unicode char U+FF5B (decimal 65371)
+   defining Unicode char U+FF5D (decimal 65373)
+   defining Unicode char U+FF61 (decimal 65377)
+   defining Unicode char U+FF62 (decimal 65378)
+   defining Unicode char U+FF63 (decimal 65379)
+   defining Unicode char U+FF64 (decimal 65380)
+   defining Unicode char U+FF65 (decimal 65381)
+)
+\@josa=\count287
+\josatoks=\toks21
+ (/Users/chacha/Library/texmf/tex/latex/cjk-ko/kolabels-utf.sty
+Package: kolabels-utf 2015/03/20 v1.5 UTF-8 Hangul item labels
+) (/Users/chacha/Library/texmf/tex/latex/kotex-utf/kosections-utf.sty
+File: kosections-utf 2022/06/20 hangul option to kotex/utf
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+02D0 (decimal 720)
+   defining Unicode char U+2025 (decimal 8229)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2312 (decimal 8978)
+   defining Unicode char U+203B (decimal 8251)
+ (/Users/chacha/Library/texmf/tex/latex/cjk-ko/konames-utf.sty
+Package: konames-utf 2015/07/06 v1.7 UTF-8 Hangul captions
+)
+\raisedotdim=\dimen158
+\dhucs@emph@width=\dimen159
+\useremphraisedim=\dimen160
+))) (/Users/chacha/Library/texmf/tex/latex/kotex-utf/contrib/dhucs-setspace.sty
+Package: dhucs-setspace 2007/09/21 0.11 Line Spacing control of ko.TeX
+ (/Users/chacha/Library/texmf/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)) (/Users/chacha/Library/texmf/tex/latex/tools/indentfirst.sty
+Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
+) (/Users/chacha/Library/texmf/tex/latex/kotex-utf/contrib/dhucsfn.sty
+Package: dhucsfn 2005/04/20 Korean footnote style
+
+Korean footnote style `dhucsfn' (a variant of `hangulfn') <2005/04/20>.
+\foot@parindent=\dimen161
+\footnumbersep=\dimen162
+) (/Users/chacha/Library/texmf/tex/latex/kotex-utf/contrib/dhucs-sectsty.sty
+Package: dhucs-sectsty 2006/04/20
+ (/Users/chacha/Library/texmf/tex/latex/sectsty/sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading styles
+
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+)
+\KSTHE@skip=\skip51
+)) (/Users/chacha/Library/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+ (/Users/chacha/Library/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (/Users/chacha/Library/texmf/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (/usr/local/texlive/2026basic/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (/usr/local/texlive/2026basic/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen163
+\Gin@req@width=\dimen164
+) (/Users/chacha/Library/texmf/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+(/Users/chacha/Library/texmf/tex/latex/amsmath/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+ (/Users/chacha/Library/texmf/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks22
+\ex@=\dimen165
+)) (/Users/chacha/Library/texmf/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen166
+) (/Users/chacha/Library/texmf/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count288
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count289
+\leftroot@=\count290
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count291
+\DOTSCASE@=\count292
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen167
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count293
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count294
+\dotsspace@=\muskip17
+\c@parentequation=\count295
+\dspbrk@lvl=\count296
+\tag@help=\toks23
+\row@=\count297
+\column@=\count298
+\maxfields@=\count299
+\andhelp@=\toks24
+\eqnshift@=\dimen168
+\alignsep@=\dimen169
+\tagshift@=\dimen170
+\tagwidth@=\dimen171
+\totwidth@=\dimen172
+\lineht@=\dimen173
+\@envbody=\toks25
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+) (/usr/local/texlive/2026basic/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen174
+\lightrulewidth=\dimen175
+\cmidrulewidth=\dimen176
+\belowrulesep=\dimen177
+\belowbottomsep=\dimen178
+\aboverulesep=\dimen179
+\abovetopsep=\dimen180
+\cmidrulesep=\dimen181
+\cmidrulekern=\dimen182
+\defaultaddspace=\dimen183
+\@cmidla=\count300
+\@cmidlb=\count301
+\@aboverulesep=\dimen184
+\@belowrulesep=\dimen185
+\@thisruleclass=\count302
+\@lastruleclass=\count303
+\@thisrulewidth=\dimen186
+) (/usr/local/texlive/2026basic/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count304
+\lst@gtempboxa=\box55
+\lst@token=\toks27
+\lst@length=\count305
+\lst@currlwidth=\dimen187
+\lst@column=\count306
+\lst@pos=\count307
+\lst@lostspace=\dimen188
+\lst@width=\dimen189
+\lst@newlines=\count308
+\lst@lineno=\count309
+\lst@maxwidth=\dimen190
+ (/usr/local/texlive/2026basic/texmf-dist/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
+) (/usr/local/texlive/2026basic/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
+\c@lstnumber=\count310
+\lst@skipnumbers=\count311
+\lst@framebox=\box56
+) (/usr/local/texlive/2026basic/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2025/11/14 1.11b listings configuration
+))
+Package: listings 2025/11/14 1.11b (Carsten Heinz)
+
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11b (Carsten Heinz)
+    so I'm assuming it got fixed.
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 23.
+ (/usr/local/texlive/2026basic/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+) (/Users/chacha/Library/texmf/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count312
+) (./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 23.
+LaTeX Font Info:    Trying to load font information for LUC+nanummj on input line 23.
+ (/Users/chacha/Library/texmf/tex/latex/nanumtype1/lucnanummj.fd
+File: lucnanummj.fd 2013/02/12 v0.1 Nanum Myeongjo font definitions
+)
+LaTeX Font Info:    ... okay on input line 23.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
+* v-part:(T,H,B)=(96.73918pt, 651.56848pt, 96.73918pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=512.14963pt
+* \textheight=651.56848pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
+* \topmargin=-12.5308pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=30.0pt
+* \skip\footins=12.5pt plus 5.55573pt minus 2.7771pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumntrue
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2026basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count313
+\scratchdimen=\dimen191
+\scratchbox=\box57
+\nofMPsegments=\count314
+\nofMParguments=\count315
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count316
+\MPscratchDim=\dimen192
+\MPnumerator=\count317
+\makeMPintoPDFobject=\count318
+\everyMPtoPDFconversion=\toks29
+) (/usr/local/texlive/2026basic/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/Users/chacha/Library/texmf/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+\c@lstlisting=\count319
+ (./Abstract.tex)
+Underfull \hbox (badness 4001) in paragraph at lines 25--25
+[] \OT1/ptm/m/n/9 Branch-less pro-gram-ming is com-mon folk-lore for data-
+ []
+
+(./01_Introduction.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{/Users/chacha/Library/texlive/2026basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/base/8r.enc}
+
+
+] (./02_Background.tex
+LaTeX Font Info:    Font shape `LUC/nanummj/b/n' in size <9> not available
+(Font)              Font shape `LUC/nanummj/bx/n' tried instead on input line 4.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 13.
+ (/usr/local/texlive/2026basic/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)) (./03_Design.tex (/usr/local/texlive/2026basic/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+) (/usr/local/texlive/2026basic/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
+)) (./04_Experiments.tex
+Underfull \hbox (badness 1237) in paragraph at lines 3--5
+[]\OT1/ptm/m/n/9 Arduino Nano RP2040 Con-nect(125 MHz), arm-none-eabi-
+ []
+
+[2]
+Underfull \vbox (badness 1552) has occurred while \output is active []
+
+) (./05_LLM.tex)
+Underfull \vbox (badness 2205) has occurred while \output is active []
+
+ [3] (./05_Conclusion.tex) (./main.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
+[]\OT1/ptm/m/n/9 Piorosen, ``Shift-op-er-a-tor: Branch-free shift via self-
+ []
+
+
+Underfull \hbox (badness 4726) in paragraph at lines 8--10
+\OT1/ptm/m/n/9 modifying code.'' $\OT1/pcr/m/n/9 https : / / github . com / Piorosen /
+ []
+
+) [4
+
+] (./main.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 5779 strings out of 469006
+ 88389 string characters out of 5454814
+ 810736 words of memory out of 5000000
+ 34281 multiletter control sequences out of 15000+600000
+ 685082 words of font info for 213 fonts, out of 8000000 for 9000
+ 319 hyphenation exceptions out of 8191
+ 87i,9n,93p,268b,1233s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjbac.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjbad.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjbae.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjbb0.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjbb2.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjbb7.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjbb8.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjbb9.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjbba.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjbbc.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjbbd.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjbbe.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjbc1.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjbc2.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjbc5.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjbc6.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjbc7.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjbc8.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjbc9.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjbcc.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjbce.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjbd1.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjbd2.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjbd3.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjbd5.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjbd6.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmac.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmad.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmae.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmaf.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmb0.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmb1.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmb2.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmb3.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmb4.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmb5.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmb6.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmb7.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmb8.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmb9.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmba.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmbb.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmbc.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmbd.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmbe.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmbf.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmc0.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmc1.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmc2.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmc4.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmc5.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmc6.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmc7.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmc8.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmc9.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmca.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmcc.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmcd.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmce.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmcf.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmd0.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmd1.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmd2.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmd3.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmd4.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmd5.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmd6.pfb></Users/chacha/Library/texmf/fonts/type1/public/nanumtype1/nanummjmd7.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (4 pages, 3162575 bytes).
+PDF statistics:
+ 415 PDF objects out of 1000 (max. 8388607)
+ 248 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
